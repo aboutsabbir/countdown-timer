@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(37, 34, 33, 0.95);
+  color: rgb(230, 225, 225);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  width: 100%;
+}
+
+.text span {
+  text-align: center;
+  display: block;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.text h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.timer {
+  margin: 4rem;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+.timer div {
+  background-color: blueviolet;
+  font-weight: bold;
+  font-size: 3.2rem;
+  border-radius: 5px;
+  display: inline-block;
+  min-width: 120px;
+  min-height: 120px;
+  text-align: center;
+  margin: 20px;
+  color: #111;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 120px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+.timer .red {
+  background-color: rgb(219, 28, 53);
+}
+
+.timer .yellow {
+  background-color: rgb(238, 238, 27);
+}
+
+.timer .green {
+  background-color: rgb(37, 219, 67);
+}
+
+.content {
+  top: 0;
+  margin-top: 0;
+}
+.content div {
+  display: inline-block;
+  min-width: 120px;
+  min-height: 120px;
+  margin: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+}
